@@ -10,7 +10,7 @@ pipeline {
     }
     
     stages {
-        stage('check_out') {
+        stage('checkout') {
             steps {
                git branch: 'main', url: 'https://github.com/VM2322/Vivek-s-Gaming-Application'
             }
